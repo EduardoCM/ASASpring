@@ -53,7 +53,37 @@
 		<table>
 			<tr>
 				<td></td>
-				<td><sf:input class="form-control form-control-lg" placeholder="Nombre" path="nombre" type="text"/></td>
+				<td><sf:input class="form-control form-control-lg" placeholder="Usuario" path="user" type="text"/></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><sf:input class="form-control form-control-lg" placeholder="Contraseña" path="password" type="text"/></td>
+			</tr>
+			
+			<tr>
+				<td></td>
+				<td><sf:input class="form-control form-control-lg" placeholder="Tipo de Usuario" path="tipoUsuario" type="text"/></td>
+			</tr>
+			
+			<tr>
+				<td></td>
+				<td><sf:input class="form-control form-control-lg" placeholder="No. Empleado" path="noEmpleado" type="text"/></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><sf:input class="form-control form-control-lg" placeholder="Tipo de roll" path="rol" type="text"/></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><sf:input class="form-control form-control-lg" placeholder="Nombre del empleado" path="nombreEmpleado" type="text"/></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><sf:input class="form-control form-control-lg" placeholder="Primer Apellido" path="primerApellido" type="text"/></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><sf:input class="form-control form-control-lg" placeholder="Segundo Apellido" path="segundoApellido" type="text"/></td>
 			</tr>
 			<tr>
 				<td></td>
@@ -61,8 +91,33 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td><sf:input class="form-control form-control-lg" placeholder="Telefono" path="telefono" type="text"/></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><sf:input class="form-control form-control-lg" placeholder="Extension" path="extension" type="text"/></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><sf:input class="form-control form-control-lg" placeholder="Fecha de inicio" path="fechaInicio" type="text"/></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><sf:input class="form-control form-control-lg" placeholder="Fecha Final" path="fechaFinal" type="text"/></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><sf:input class="form-control form-control-lg" placeholder="Estatus" path="estatus" type="text"/></td>
+			</tr>
+			
+			
+			
+			<tr>
+				<td></td>
 				<td><input type="submit" value="Guardar Cambios"></td>
 			</tr>
+			
+			
 		</table>
 	</sf:form>
       </div>
